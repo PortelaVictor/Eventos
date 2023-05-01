@@ -477,20 +477,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -531,3 +517,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+#Excluindo DB
+*.db
+*.db-shm
+*.db-wal
