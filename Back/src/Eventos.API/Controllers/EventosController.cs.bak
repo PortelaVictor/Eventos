@@ -177,8 +177,7 @@ namespace Eventos.API.Controllers
                                               .ToArray()
                                          ).Replace(' ', '-');
            
-           imageName = $"{imageName}{DateTime.UtcNow.ToString("yymmssffff")}{Path.GetExtension(imageFile.FileName)}";          
-           
+           imageName = $"{imageName}{DateTime.UtcNow.ToString("yymmssffff")}{Path.GetExtension(imageFile.FileName)}";           
             var imagePath = Path.Combine(_hostEnvironment.ContentRootPath, @"Resources/images", imageName);
 
             using (var fileStream = new FileStream(imagePath, FileMode.Create))
