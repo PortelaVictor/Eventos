@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace ProEventos.API.Extensions
+namespace Eventos.API.Extensions
 {
     public static class ClaimsPrincipalExtensions
     {

@@ -13,7 +13,7 @@ using Eventos.Application.Contratos;
 using Eventos.Application.Dtos;
 using Eventos.Domain.Identity;
 
-namespace ProEventos.Application
+namespace Eventos.Application
 {
     public class TokenService : ITokenService
     {
