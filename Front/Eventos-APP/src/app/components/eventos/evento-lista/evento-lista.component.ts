@@ -58,11 +58,12 @@ export class EventoListaComponent implements OnInit {
     this.termoBuscaChanged.next(evt.value);
   }
 
-  constructor(private eventoService : EventoService,
-              private modalService: BsModalService,
-              private toastr: ToastrService,
-              private spinner: NgxSpinnerService,
-              private router: Router
+  constructor(
+    private eventoService : EventoService,
+    private modalService: BsModalService,
+    private toastr: ToastrService,
+    private spinner: NgxSpinnerService,
+    private router: Router
   )  { }
 
   public ngOnInit(): void {
